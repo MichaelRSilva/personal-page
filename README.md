@@ -1,4 +1,4 @@
-# <a href='http://michaelsilva.io'><img src='https://dl.dropboxusercontent.com/s/amgdh2fzqv6qeoh/banner-github-personal-page.png' height='50'></a>
+# <a href='http://michaelsilva.io'><img src='https://dl.dropboxusercontent.com/s/2042wlthpkfzjcv/banner-github-personal-page.png' height='50'></a>
 
 Personal Page is a project that contains a person's personal information and resume. It was initially created for the processing of the freeCodeCamp map. The following tools / frameworks / technologies are being used:
 
