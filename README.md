@@ -30,7 +30,7 @@ IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 #### Fonts
 
-* Cocogoose by [Zeta Fonts](http://www.zetafonts.com/cocogoose)
+* Ubuntu by [Dalton Maag](https://fonts.google.com/specimen/Ubuntu)
 * Roboto by [Christian Robertson](https://fonts.google.com/specimen/Roboto)
 
 
