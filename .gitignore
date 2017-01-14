@@ -1,0 +1,9 @@
+
+.idea/
+*~
+.DS_Store
+output.txt
+source/public/dist
+source/node_modules
+source/server.js
+source/bower_components
