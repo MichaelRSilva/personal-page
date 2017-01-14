@@ -1,0 +1,23 @@
+{
+  "name": "personal-page",
+  "description": "Personal Page is a project that contains a person's personal information and resume.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Michael Silva"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "personal-page"
+  ],
+  "homepage": "https://github.com/MichaelRSilva/personal-page",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.1.1"
+  }
+}
