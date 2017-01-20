@@ -1,0 +1,247 @@
+
+.header-main {
+
+  width: 100vw;
+  height: 100vh;
+  background: url(/dist/images/background-768.jpg) no-repeat center center/cover;
+  display: block;
+  position: relative;
+
+  .menu-icon-top{
+    width: 60px;
+    height: 42px;
+    background-color: $header-secondary-color;
+    position: fixed;
+    left: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+    color: $header-primary-color;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: -12px;
+    z-index: 900;
+    @include border-bottom-radius(3px);
+    @include box-shadow(#2b2a2a 2px 2px 5px);
+
+  }
+
+  nav{
+    display: none;
+  }
+
+  @include breakpoint($tablet) {
+    width: 100vw;
+    height: 100vh;
+    background: url(/dist/images/background-1440.jpg) no-repeat center center/cover;
+    display: block;
+    position: relative;
+  }
+
+  @include breakpoint($desktop) {
+    width: 100vw;
+    height: 100vh;
+    background: url(/dist/images/background-1920.jpg) no-repeat center center/cover;
+    display: block;
+    position: relative;
+  }
+
+  .arrow-down-header {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(#fff, 0.6);
+    @include border-radius(50%);
+    background-color: rgba(#000, 0.3);
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    text-align: center;
+    cursor: pointer;
+    bottom: 30px;
+
+    i {
+      color: #fff;
+      line-height: 48px;
+      font-size: 25px;
+      @include text-shadow(rgba(#000, 0.8) 2px 5px 0);
+    }
+  }
+
+  .header-main-content {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    @include centerBox();
+
+    .michael-main-photo {
+      width: 40vw;
+      height: 40vw;
+      @include border-radius(50%);
+      background: rgba(255, 255, 255, 0.2);
+      position: relative;
+      left: 50%;
+      margin-left: -20vw;
+      margin-bottom: 20px;
+
+      @include mobile-landscape {
+        display: none;
+      }
+
+      @include tablet-landscape {
+        width: 30vh;
+        height: 30vh;
+        margin-left: -15vh;
+        margin-bottom: 20px;
+        display: block;
+      }
+
+      @include breakpoint($desktop) {
+        width: 30vh;
+        height: 30vh;
+        margin-left: -15vh;
+        margin-bottom: 20px;
+        display: block;
+      }
+
+      img {
+        width: 94%;
+        @include border-radius(50%);
+        position: relative;
+        @include centerBox();
+      }
+
+    }
+
+    .text-main {
+      text-align: center;
+      height: auto;
+      font-family: $ubuntu-font;
+      font-style: normal;
+      @include fit-content();
+      margin: auto;
+      font-weight: 900;
+
+      p, h1 {
+        background-color: $header-primary-color;
+        color: $header-secondary-color;
+        text-transform: uppercase;
+        display: table;
+        margin: 0 auto 12px auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12vw;
+      }
+
+      h1 {
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        width: 100%;
+        text-align: right;
+        color: #d3d3d3;
+        font-size: 7vw;
+        padding: 0;
+        margin: 0;
+        @include text-shadow(rgba(#000, 0.5) 4px 3px 0);
+        background-color: transparent;
+        text-transform: none;
+      }
+
+      @include mobile-landscape {
+        p, h1 {
+          font-size: 6vw;
+        }
+
+        .subtitle {
+          font-size: 3.5vw;
+        }
+      }
+
+      @include breakpoint($desktop) {
+        p, h1 {
+          font-size: 5vw;
+        }
+
+        .subtitle {
+          font-size: 2.5vw;
+        }
+      }
+    }
+
+  }
+}
+
+/*@include header-main(){
+
+
+
+
+
+  .header-content{
+    position: relative;
+    height: auto;
+    width: 100%;
+    @include centre;
+
+    .michael-main-photo{
+      width: 170px;
+      height: 170px;
+      @include border-radius(50%);
+      background: rgba(255,255,255,0.2);
+      position: relative;
+      left: 50%;
+      margin-left: -85px;
+      margin-bottom: 30px;
+
+      img{
+        width: 94%;
+        @include border-radius(50%);
+        position: relative;
+        @include centerer;
+      }
+
+    }
+
+    .text-main{
+      text-align: center;
+      height: auto;
+      font-family: $ubuntu-font;
+      font-style: normal;
+      @include fit-content();
+      margin: auto;
+
+      p, h1{
+        background-color: $header-primary-color;
+        color: $header-secondary-color;
+        text-transform: uppercase;
+        display: table;
+        margin: 17px auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 900;
+        font-size: 5vw;
+
+      }
+
+      h1{
+        margin-bottom: 10px;
+      }
+
+      h2{
+        width: 100%;
+        text-align: right;
+        color: #d3d3d3;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
+        @include text-shadow(rgba(#000, 0.8) 4px 3px 0);
+      }
+
+    }
+
+  }
+}*/
+

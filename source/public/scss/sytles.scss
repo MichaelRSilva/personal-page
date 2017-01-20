@@ -1,0 +1,24 @@
+
+@import "bower_components/normalize-scss/sass/normalize/import-now";
+@import "bower_components/compass-sass-mixins/lib/compass";
+@import "bower_components/susy/sass/susy";
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "bower_components/components-font-awesome/scss/font-awesome";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/keyframes";
+@import "partials/mixins";
+
+@include google-font("Ubuntu");
+@include google-font("Roboto");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $page-background-color;
+}
+
+@import "sections/header";
+@import "sections/main";

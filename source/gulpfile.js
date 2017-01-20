@@ -12,18 +12,19 @@ var plumber                 = require("gulp-plumber");
 var imagemin                = require('gulp-imagemin');
 var imageminPngquant        = require('imagemin-pngquant');
 var imageminJpegRecompress  = require('imagemin-jpeg-recompress');
+var compass                 = require('gulp-compass');
 
 
 //Filespaths
 var DIST_PATH    = 'public/dist';
 var SCRIPTS_PATH = 'public/scripts/**/*.js';
-var SCSS_PATH    = 'public/css/**/*.scss';
+var SCSS_PATH    = 'public/scss/**/*.scss';
 var IMAGES_PATH  = 'public/images/**/*.{png,jpeg,jpg,svg,gif}';
 
 //Styles For SCSS
 gulp.task("styles", function(){
     console.log("starting styles task");
-    return gulp.src(SCSS_PATH)
+    return gulp.src([SCSS_PATH])
         .pipe(plumber(function (err) {
             console.log("Styles task Error");
             console.log(err);
@@ -33,6 +34,7 @@ gulp.task("styles", function(){
         .pipe(sass({
             outputStyle: 'compressed'
         }))
+        .pipe(concat('styles.css'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(DIST_PATH + '/css'))
         .pipe(livereload());
@@ -41,7 +43,7 @@ gulp.task("styles", function(){
 //Scripts
 gulp.task("scripts", function(){
     console.log("starting scripts task");
-    return gulp.src(SCRIPTS_PATH)
+    return gulp.src(['bower_components/jquery/dist/jquery.min.js',SCRIPTS_PATH])
         .pipe(plumber(function (err) {
             console.log("Scripts task Error");
             console.log(err);
@@ -72,7 +74,6 @@ gulp.task("images", function(){
         .pipe(gulp.dest(DIST_PATH + '/images'))
         .pipe(livereload());
 });
-
 
 //Default
 gulp.task('default', ['images', 'styles', 'scripts'], function () {

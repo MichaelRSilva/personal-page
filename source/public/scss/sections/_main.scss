@@ -1,0 +1,14 @@
+
+main{
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: $main-primary-color;
+  color: $main-third-color;;
+
+  @import "../sections/main/about";
+  @import "../sections/main/skills";
+
+
+
+}

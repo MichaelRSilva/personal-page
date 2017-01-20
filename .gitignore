@@ -7,5 +7,4 @@ source/public/dist
 source/node_modules
 source/server.js
 source/bower_components
-source/npm-debug.log
-source/.sass-cache/
+source/.sass-cache
