@@ -7,7 +7,7 @@
   display: block;
   position: relative;
 
-  .menu-icon-top{
+  .menu-icon-top {
     width: 60px;
     height: 42px;
     background-color: $header-secondary-color;
@@ -26,7 +26,7 @@
 
   }
 
-  nav{
+  nav {
     display: none;
   }
 
@@ -57,6 +57,9 @@
     margin-left: -24px;
     text-align: center;
     cursor: pointer;
+
+    //URGENTEMENTE RETIRAR ISSO E COLOCAR
+    //REFERENTE AO TOP
     bottom: 30px;
 
     i {
@@ -129,7 +132,7 @@
         margin: 0 auto 12px auto;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 12vw;
+        font-size: 11vw;
       }
 
       h1 {
@@ -171,77 +174,3 @@
 
   }
 }
-
-/*@include header-main(){
-
-
-
-
-
-  .header-content{
-    position: relative;
-    height: auto;
-    width: 100%;
-    @include centre;
-
-    .michael-main-photo{
-      width: 170px;
-      height: 170px;
-      @include border-radius(50%);
-      background: rgba(255,255,255,0.2);
-      position: relative;
-      left: 50%;
-      margin-left: -85px;
-      margin-bottom: 30px;
-
-      img{
-        width: 94%;
-        @include border-radius(50%);
-        position: relative;
-        @include centerer;
-      }
-
-    }
-
-    .text-main{
-      text-align: center;
-      height: auto;
-      font-family: $ubuntu-font;
-      font-style: normal;
-      @include fit-content();
-      margin: auto;
-
-      p, h1{
-        background-color: $header-primary-color;
-        color: $header-secondary-color;
-        text-transform: uppercase;
-        display: table;
-        margin: 17px auto;
-        padding-left: 5px;
-        padding-right: 5px;
-        font-weight: 900;
-        font-size: 5vw;
-
-      }
-
-      h1{
-        margin-bottom: 10px;
-      }
-
-      h2{
-        width: 100%;
-        text-align: right;
-        color: #d3d3d3;
-        font-weight: 900;
-        font-size: 30px;
-        line-height: 30px;
-        padding: 0;
-        margin: 0;
-        @include text-shadow(rgba(#000, 0.8) 4px 3px 0);
-      }
-
-    }
-
-  }
-}*/
-

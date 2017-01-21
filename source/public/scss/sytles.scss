@@ -12,6 +12,7 @@
 @include google-font("Ubuntu");
 @include google-font("Roboto");
 
+
 * {
   box-sizing: border-box;
 }
@@ -22,3 +23,4 @@ body {
 
 @import "sections/header";
 @import "sections/main";
+@import "sections/footer";
