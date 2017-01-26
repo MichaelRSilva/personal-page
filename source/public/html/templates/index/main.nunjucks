@@ -1,0 +1,12 @@
+<main role="main">
+
+    {% include "index/main/about.nunjucks" %}
+
+    {% include "index/main/skills.nunjucks" %}
+
+    {% include "index/main/projects.nunjucks" %}
+
+    {% include "index/main/contact.nunjucks" %}
+
+
+</main>
