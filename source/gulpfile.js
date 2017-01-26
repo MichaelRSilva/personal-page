@@ -13,14 +13,15 @@ var imagemin                = require('gulp-imagemin');
 var imageminPngquant        = require('imagemin-pngquant');
 var imageminJpegRecompress  = require('imagemin-jpeg-recompress');
 var compass                 = require('gulp-compass');
+var nunjucks                = require('gulp-nunjucks-html');
 
 
 //Filespaths
-var DIST_PATH    = 'public/dist';
-var SCRIPTS_PATH = 'public/scripts/**/*.js';
-var SCSS_PATH    = 'public/scss/**/*.scss';
-var IMAGES_PATH  = 'public/images/**/*.{png,jpeg,jpg,svg,gif}';
-
+var DIST_PATH       = 'public/dist';
+var SCRIPTS_PATH    = 'public/scripts/**/*.js';
+var SCSS_PATH       = 'public/scss/**/*.scss';
+var IMAGES_PATH     = 'public/images/**/*.{png,jpeg,jpg,svg,gif}';
+var TEMPLATES_PATH  = 'public/templates';
 //Styles For SCSS
 gulp.task("styles", function(){
     console.log("starting styles task");
@@ -75,8 +76,22 @@ gulp.task("images", function(){
         .pipe(livereload());
 });
 
+//Nunjucks
+gulp.task('nunjucks', function() {
+    console.log("starting nunjucks task");
+    return gulp.src([TEMPLATES_PATH+"/index/*.html"])
+        .pipe(nunjucks({
+            searchPaths: [
+                'public/templates/index',
+                'public/templates/index/partials',
+                'public/templates/index/partials/main']
+        }))
+        .pipe(gulp.dest('public/'))
+        .pipe(livereload());
+});
+
 //Default
-gulp.task('default', ['images', 'styles', 'scripts'], function () {
+gulp.task('default', ['images', 'styles', 'scripts', 'nunjucks'], function () {
     console.log("starting default task");
 });
 

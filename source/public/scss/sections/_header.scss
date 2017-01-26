@@ -23,11 +23,74 @@
     z-index: 900;
     @include border-bottom-radius(3px);
     @include box-shadow(#2b2a2a 2px 2px 5px);
+    @include transition(background-color .3s ease-in-out .0s, margin-top .2s ease-in-out .0s);
+
+    &:hover{
+      background-color: $main-secondary-color;
+      margin-top: -1px;
+    }
+
+    @if($menu-opened == true){
+      visibility: hidden;
+    }
 
   }
 
   nav {
-    display: none;
+
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    background-color: $main-secondary-color;
+    @include box-shadow(rgba(#2b2a2a, 0.6) 0 3px 5px);
+    @include border-radius(0);
+    z-index: 901;
+
+    @if($menu-opened == false){
+      visibility: hidden;
+    }
+
+    ul{
+      list-style: none;
+    }
+
+    .menu-close{
+      width: 46px;
+      height: 42px;
+      background-color: $header-secondary-color;
+      position: absolute;
+      left: 50%;
+      margin-left: -23px;
+      cursor: pointer;
+      color: $header-primary-color;
+      text-align: center;
+      font-size: 45px;
+      line-height: 40px;
+      z-index: 900;
+      bottom: -42px;
+      @include border-bottom-radius(3px);
+      @include box-shadow(#2b2a2a 2px 2px 5px);
+      //@include transition(background-color .3s ease-in-out .0s);
+
+      i{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        left: 0;
+        @include transition(bottom .2s ease-in-out .0s);
+        cursor: pointer;
+      }
+
+      &:hover{
+        i{
+          bottom: 10px;
+        }
+        background-color: darken($main-secondary-color, 20%);
+      }
+
+    }
+
   }
 
   @include breakpoint($tablet) {

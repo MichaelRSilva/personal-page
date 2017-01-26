@@ -33,11 +33,7 @@ $susy:(
         global-box-sizing: border-box
 );
 
-$section-default: (
-        gutters: 0,
-);
 
-$section-model-1: (
-        gutters: 0
-);
 
+// === CONTROLS ===
+$menu-opened: false;
