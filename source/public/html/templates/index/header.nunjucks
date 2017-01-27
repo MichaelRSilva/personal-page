@@ -1,4 +1,4 @@
-<header class="header-main">
+<header class="header-main" id="home">
 
     <div class="menu-icon-top">
         <i class="fa fa-th-large"></i>
@@ -6,13 +6,55 @@
 
     <nav>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+
+            <li>
+                <a href="#home">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
+                 </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <i class="fa fa-user-circle"></i>
+                    <span>About</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    <i class="fa fa-code"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-tasks"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="">
+                    <i class="fa fa-cloud-download"></i>
+                    <span>Resume</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-phone-square"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a href="">
+                    <i class="fa fa-quote-right"></i>
+                    <span>Blog</span>
+                </a>
+            </li>
         </ul>
 
 
@@ -32,15 +74,16 @@
             <p>Hello</p>
             <p>I am</p>
             <h1>Michael Silva.</h1>
-            <p class="subtitle">Full-Stack</p>
+            <div class="subtitle">Full-Stack</div>
         </div>
 
     </div>
 
-
-    <div class="arrow-down-header">
-        <i class="fa fa-arrow-down"></i>
-    </div>
+    <a href="#about" class="noselect">
+        <div class="arrow-down-header">
+            <i class="fa fa-arrow-down"></i>
+        </div>
+    </a>
 
 
 </header>

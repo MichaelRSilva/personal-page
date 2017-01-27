@@ -124,12 +124,20 @@ hr.hr-contact{
 
       img{
         vertical-align: middle;
-        margin-right: 5px;
-        margin-left: 5px;
-        max-width: 35px;
+        margin-right: 10px;
+        margin-left: 10px;
+        max-width: 30px;
+
+        @include keyframes (beat){
+          to { transform: scale(1.4); }
+        }
+        animation: beat .4s infinite alternate;
+
       }
+
     }
 
   }
+
 
 }

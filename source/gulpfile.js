@@ -46,7 +46,11 @@ gulp.task("styles", function(){
 //Scripts
 gulp.task("scripts", function(){
     console.log("starting scripts task");
-    return gulp.src(['bower_components/jquery/dist/jquery.min.js',SCRIPTS_PATH])
+    return gulp.src([
+        'bower_components/scrollreveal/dist/scrollreveal.min.js',
+        'bower_components/jquery/dist/jquery.min.js',
+        SCRIPTS_PATH
+    ])
         .pipe(plumber(function (err) {
             console.log("Scripts task Error");
             console.log(err);
@@ -92,8 +96,18 @@ gulp.task('nunjucks', function() {
         .pipe(livereload());
 });
 
+//Fonts
+gulp.task('fonts', function() {
+    console.log("starting fonts task");
+    return gulp.src([
+        'bower_components/components-font-awesome/fonts/fontawesome-webfont.*',
+        'bower_components/components-font-awesome/fonts/FontAwesome-webfont.*'])
+        .pipe(gulp.dest(DIST_PATH + '/fonts/'));
+});
+
+
 //Default
-gulp.task('default', ['images', 'styles', 'scripts', 'nunjucks'], function () {
+gulp.task('default', ['images', 'styles', 'scripts', 'fonts', 'nunjucks'], function () {
     console.log("starting default task");
 });
 

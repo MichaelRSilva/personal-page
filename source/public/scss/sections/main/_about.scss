@@ -55,9 +55,9 @@ hr.hr-about{
 
       img{
         display: none;
-        width: 70%;
-        max-width: 149px;
-        margin: 0 auto;
+        width: 90%;
+        max-width: 200px;
+        margin: 50px auto 0 auto;
       }
 
       @include breakpoint($tablet) {

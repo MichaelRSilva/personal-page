@@ -1,4 +1,4 @@
-<hr class="hr-contact">
+<hr class="hr-contact" id="contact">
 
 <section class="section-model-4">
 
@@ -33,7 +33,7 @@
         <p class="text-contact">
             This open source project is in Github.
             <br>
-            Designed and coded with lots of <img src="dist/images/love.png"> by myself.
+            Designed and coded with lots of <img src="dist/images/heart.svg"> by myself.
         </p>
 
     </div>

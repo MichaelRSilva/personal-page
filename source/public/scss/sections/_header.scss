@@ -21,17 +21,18 @@
     line-height: 40px;
     margin-top: -12px;
     z-index: 900;
+    display: block;
     @include border-bottom-radius(3px);
     @include box-shadow(#2b2a2a 2px 2px 5px);
     @include transition(background-color .3s ease-in-out .0s, margin-top .2s ease-in-out .0s);
+    mso-highlight: rgba(#fff, 0);
+    -webkit-tap-highlight-color: rgba(#fff, 0);
 
-    &:hover{
-      background-color: $main-secondary-color;
-      margin-top: -1px;
-    }
-
-    @if($menu-opened == true){
-      visibility: hidden;
+    @media (hover:hover) {
+      &:hover{
+        background-color: $main-secondary-color;
+        margin-top: -1px;
+      }
     }
 
   }
@@ -40,18 +41,112 @@
 
     width: 100%;
     position: fixed;
-    height: 90px;
+    min-height: 90px;
     background-color: $main-secondary-color;
     @include box-shadow(rgba(#2b2a2a, 0.6) 0 3px 5px);
     @include border-radius(0);
     z-index: 901;
-
-    @if($menu-opened == false){
-      visibility: hidden;
-    }
+    display: none;
 
     ul{
       list-style: none;
+      padding: 5px 0 0 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      li{
+        width: 50%;
+        height: 60px;
+        color: white;
+        text-align: left;
+        font-family: $roboto-font;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        @include transition(background-color .2s ease-in-out .0s);
+        border-right: 1px solid rgba(white, 0.3);
+        border-bottom: 1px solid rgba(white, 0.2);
+        mso-highlight: rgba(#fff, 0);
+        -webkit-tap-highlight-color: rgba(#fff, 0);
+
+        i{
+          font-size: 25px;
+          vertical-align: middle;
+          margin-right: 4px;
+        }
+
+        a{
+          height: 100%;
+          width: 100%;
+          display: block;
+          margin: 0;
+          padding: 12px 20px 0 20px;
+        }
+
+        &:nth-of-type(2n){
+          border-right: 0;
+        }
+
+
+        &:last-child{
+          border-right: 0;
+          border-bottom: 0;
+          width: 100%;
+          text-align: center;
+        }
+
+        &:hover{
+          background-color: darken($main-secondary-color, 10%);
+        }
+
+        &:active{
+          background-color: darken($main-secondary-color, 10%);
+        }
+
+
+      }
+
+      @include breakpoint($tablet) {
+        padding: 0;
+
+        li{
+          width: 100px;
+          text-align: center;
+          height: 90px;
+          font-size: 15px;
+          border-bottom: 0;
+
+          &:nth-of-type(2n){
+            border-right: 1px solid rgba(white, 0.3);
+          }
+
+          a{
+            height: 100%;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 12px 0 0 0;
+          }
+
+
+          i{
+            display: block;
+            font-size: 35px;
+            margin-bottom: 12px;
+            margin-right: 0;
+          }
+
+          &:last-child{
+            width: 100px;
+          }
+
+        }
+      }
+
+
     }
 
     .menu-close{
@@ -70,7 +165,6 @@
       bottom: -42px;
       @include border-bottom-radius(3px);
       @include box-shadow(#2b2a2a 2px 2px 5px);
-      //@include transition(background-color .3s ease-in-out .0s);
 
       i{
         position: absolute;
@@ -86,7 +180,7 @@
         i{
           bottom: 10px;
         }
-        background-color: darken($main-secondary-color, 20%);
+        background-color: #333;
       }
 
     }
@@ -110,6 +204,21 @@
   }
 
   .arrow-down-header {
+
+    @include keyframes(move-up-down) {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(15%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    animation: move-up-down 1.2s linear infinite;
+
     width: 48px;
     height: 48px;
     border: 1px solid rgba(#fff, 0.6);
@@ -120,10 +229,16 @@
     margin-left: -24px;
     text-align: center;
     cursor: pointer;
-
-    //URGENTEMENTE RETIRAR ISSO E COLOCAR
-    //REFERENTE AO TOP
     bottom: 30px;
+    @include transition(background-color .3s ease-in-out .0s);
+
+    @media (hover:hover) {
+      &:hover{
+        background-color: rgba(#000, 0.8);
+      }
+    }
+
+
 
     i {
       color: #fff;
@@ -131,6 +246,7 @@
       font-size: 25px;
       @include text-shadow(rgba(#000, 0.8) 2px 5px 0);
     }
+
   }
 
   .header-main-content {
@@ -207,11 +323,24 @@
         text-align: right;
         color: #d3d3d3;
         font-size: 7vw;
-        padding: 0;
+        padding: 0 0 0 0;
         margin: 0;
         @include text-shadow(rgba(#000, 0.5) 4px 3px 0);
         background-color: transparent;
         text-transform: none;
+        white-space: nowrap;
+        float: right;
+
+        overflow: hidden;
+
+        @include keyframes (typing){
+          from { width: 0 }
+          to { width: 100% }
+        }
+
+        animation: typing 3.5s steps(40, end);
+
+
       }
 
       @include mobile-landscape {
