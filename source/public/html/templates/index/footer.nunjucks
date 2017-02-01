@@ -2,12 +2,12 @@
 
     <div class="social-medias">
 
-        <i class="fa fa-github-square"></i>
-        <i class="fa fa-facebook-square"></i>
-        <i class="fa fa-twitter-square"></i>
-        <i class="fa fa-youtube-square"></i>
-        <i class="fa fa-linkedin-square"></i>
-        <i class="fa fa-behance-square"></i>
+        <i class="fa fa-github-square hvr-bob"></i>
+        <i class="fa fa-facebook-square hvr-bob"></i>
+        <i class="fa fa-twitter-square hvr-bob"></i>
+        <i class="fa fa-youtube-square hvr-bob"></i>
+        <i class="fa fa-linkedin-square hvr-bob"></i>
+        <i class="fa fa-behance-square hvr-bob"></i>
         
     </div>
 

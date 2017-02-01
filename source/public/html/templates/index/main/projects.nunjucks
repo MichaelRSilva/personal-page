@@ -9,7 +9,7 @@
     <div class="container">
 
         <ul class="gallery">
-            <li>
+            <li class="hvr-hang project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -20,9 +20,45 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </li>
-            <li>
+
+            <li class="hvr-hang project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -33,9 +69,46 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </li>
-            <li>
+            <li class="hvr-hang project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -46,9 +119,46 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </li>
-            <li>
+            <li class="hvr-bob project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -59,9 +169,46 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </li>
-            <li>
+            <li class="hvr-bob project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -72,9 +219,46 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </li>
-            <li>
+            <li class="hvr-bob project-item">
                 <div class="item">
                     <img src="dist/images/test-project.jpg">
                     <p class="title">
@@ -85,6 +269,43 @@
                     </p>
 
                     <i class="fa fa-bars open-project"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </li>
         </ul>

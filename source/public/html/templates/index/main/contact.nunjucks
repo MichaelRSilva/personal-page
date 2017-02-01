@@ -12,16 +12,16 @@
 
             <ul>
                 <li>
-                    <div class="frame-radius">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
                         <img src="dist/images/ms-cert-sample.png">
                     </div>
                 </li>
                 <li>
-                    <div class="frame-radius">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
                         <img src="dist/images/ms-cert-sample.png">
                     </div>                            </li>
                 <li>
-                    <div class="frame-radius">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
                         <img src="dist/images/ms-cert-sample.png">
                     </div>
                 </li>

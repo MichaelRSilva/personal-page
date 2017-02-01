@@ -27,7 +27,10 @@ var NUNJUCKS_PATH   = 'public/html/**/*.+(html|nunjucks)';
 //Styles For SCSS
 gulp.task("styles", function(){
     console.log("starting styles task");
-    return gulp.src([SCSS_PATH])
+    return gulp.src([
+        SCSS_PATH,
+        'bower_components/hover/css/hover.css',
+        'bower_components/Simptip/simptip.min.css'])
         .pipe(plumber(function (err) {
             console.log("Styles task Error");
             console.log(err);
