@@ -9,6 +9,8 @@
   padding-bottom: 15px;
   padding-top: 15px;
 
+  @include selection($main-secondary-color, white);
+
   .text-final{
     text-align: center;
     color: #666;

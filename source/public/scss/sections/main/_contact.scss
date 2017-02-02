@@ -19,6 +19,8 @@ hr.hr-contact{
     margin-left: -40%;
     font-size: 13px;
 
+    @include selection(black, white);
+
     @include main-section-h2;
 
     h2{
@@ -38,6 +40,8 @@ hr.hr-contact{
     color: $main-text-color;
     width: 100%;
     padding-bottom: 25px;
+
+    @include selection(black, white);
 
     .certificates{
 
@@ -114,6 +118,13 @@ hr.hr-contact{
       font-size: 15px;
       line-height: 30px;
 
+
+      a{
+        background-color: darken($main-secondary-color, 15%);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
       @include mobile-landscape{
         font-size: 20px;
       }
@@ -126,7 +137,8 @@ hr.hr-contact{
         vertical-align: middle;
         margin-right: 10px;
         margin-left: 10px;
-        max-width: 30px;
+        max-width: 25px;
+
 
         @include keyframes (beat){
           to { transform: scale(1.4); }

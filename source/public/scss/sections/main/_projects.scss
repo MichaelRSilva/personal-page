@@ -18,6 +18,8 @@ hr.hr-projects{
     margin-bottom: 40px;
     margin-top: 20px;
 
+    @include selection($main-secondary-color, white);
+
     @include main-section-h2;
     @include main-section-h3;
   }
@@ -49,6 +51,8 @@ hr.hr-projects{
           border: 1px solid #eae1e1;
           @include box-shadow(#cecccc 1px 1px 2px);
           position: relative;
+
+          @include selection($main-secondary-color, white);
 
           img{
             width: 100%;

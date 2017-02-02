@@ -7,6 +7,8 @@
   display: block;
   position: relative;
 
+  @include selection($main-secondary-color, black);
+
   .menu-icon-top {
     width: 60px;
     height: 42px;

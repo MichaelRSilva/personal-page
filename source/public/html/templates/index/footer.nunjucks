@@ -12,7 +12,7 @@
     </div>
 
     <div class="text-final">
-        michael@michaelsilva.io
+        <a href="mailto:michael@michaelsilva.io" target="_top">michael@michaelsilva.io</a>
     </div>
 
 </footer>

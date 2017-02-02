@@ -17,6 +17,8 @@ hr.hr-about{
     font-size: 13px;
     margin-bottom: 40px;
 
+    @include selection($main-secondary-color, white);
+
     @include main-section-h2;
     @include main-section-h3;
   }
@@ -34,6 +36,8 @@ hr.hr-about{
 
       border-bottom: 1px dashed #e1dede;
       margin-bottom: 20px;
+
+      @include selection($main-secondary-color, white);
 
       @include breakpoint($tablet) {
 
@@ -75,6 +79,7 @@ hr.hr-about{
     .user-data{
 
       padding-left: 10px;
+      @include selection($main-secondary-color, white);
 
       @include breakpoint($tablet) {
         @include span(5 of 12 last);
@@ -122,6 +127,13 @@ hr.hr-about{
             .user-data-text{
               margin-left: 15px;
               line-height: 24px;
+
+              a{
+                background-color: darken($main-secondary-color, 0%);
+                padding-left: 3px;
+                padding-right: 3px;
+                color: $main-primary-color;
+              }
             }
 
           }

@@ -20,6 +20,8 @@ hr.hr-skills{
     font-size: 13px;
     margin-bottom: 22px;
 
+    @include selection(black, white);
+
     @include main-section-h2;
 
     h2{
@@ -35,6 +37,8 @@ hr.hr-skills{
     @include container;
     padding-bottom: 20px;
     font-family: $roboto-font;
+
+    @include selection(black, white);
 
     ul{
 

@@ -31,7 +31,7 @@
         </div>
 
         <p class="text-contact">
-            This open source project is in Github.
+            This open source project is in <a href="https://github.com/MichaelRSilva/personal-page" target="_blank">Github.</a>
             <br>
             Designed and coded with lots of <img src="dist/images/heart.svg"> by myself.
         </p>
