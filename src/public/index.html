@@ -1,0 +1,771 @@
+<!doctype html>
+
+<html lang="en">
+  
+	  <head>
+          <meta charset="utf-8">
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name=viewport>
+
+<link rel="icon" type="image/png" href="dist/images/favicon.png">
+
+<title>Michael Silva - Full-Stack developer, UI/UX designer</title>
+<meta name="description" content="Hello, i am Michael Silva, full-stack developer. What can say is that i love Back-End and Algorithms. Likewise, i also love Front End, actually i am cracked in codes." />
+<link rel="author" href="https://www.linkedin.com/in/michaeldfti">
+
+<meta name="keywords" content="Michael Silva, Full-Stack Developer, codes, Front-End, Back-End, UI, UX, UI/UX designer"/>
+
+<!-- Facebook and Twitter meta-tags -->
+<meta property="og:title" content="Michael Silva - Full-Stack developer, UI/UX designer"/>
+<meta property="og:image" content="https://dl.dropboxusercontent.com/s/vqyp2aazbyuisa5/michaelsilva-social-media.jpg"/>
+<meta property="og:url" content="/"/>
+<meta property="og:site_name" content="Michael Silva - Full-Stack developer, UI/UX designer"/>
+<meta property="og:description" content="Hello, i am Michael Silva, full-stack developer. What can say is that i love Back-End and Algorithms. Likewise, i also love Front End, actually i am cracked in codes."/>
+
+<meta name="twitter:title" content="Michael Silva - Full-Stack developer, UI/UX designer" />
+<meta name="twitter:image" content="https://dl.dropboxusercontent.com/s/vqyp2aazbyuisa5/michaelsilva-social-media.jpg" />
+<meta name="twitter:url" content="/" />
+<meta name="twitter:card" content="Hello, i am Michael Silva, full-stack developer. What can say is that i love Back-End and Algorithms. Likewise, i also love Front End, actually i am cracked in codes." />
+
+          <link rel="stylesheet" href="dist/css/styles.css">
+	  </head>
+
+	<body>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-91446105-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+
+        <header class="header-main" id="home">
+
+    <div class="menu-icon-top">
+        <i class="fa fa-th-large"></i>
+    </div>
+
+    <nav role="navigation">
+        <ul>
+
+            <li>
+                <a href="#home">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
+                 </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <i class="fa fa-user-circle"></i>
+                    <span>About</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    <i class="fa fa-code"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-tasks"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalResumeDownload">
+                    <i class="fa fa-cloud-download"></i>
+                    <span>Resume</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-phone-square"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalNoticeBlog">
+                    <i class="fa fa-quote-right"></i>
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="menu-close">
+            <i class="fa fa-angle-up"></i>
+        </div>
+
+    </nav>
+
+
+    <div class="header-main-content">
+
+        <div class="michael-main-photo">
+            <img src="dist/images/michael-main.jpg" alt="Michael Silva">
+        </div>
+
+        <div class="text-main">
+            <p>Hello</p>
+            <p>I am</p>
+            <h1>Michael Silva.</h1>
+            <div class="subtitle">Full-Stack</div>
+        </div>
+
+    </div>
+
+    <a href="#about" class="noselect">
+        <div class="arrow-down-header">
+            <i class="fa fa-arrow-down"></i>
+        </div>
+    </a>
+
+</header>
+
+<div class="remodal" data-remodal-id="modalNoticeBlog">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>Hello :D</h3>
+    <p>
+        I'm building my blog, to share many interesting things about full-stack development.
+        <br><br>
+        As soon as it's ready i'll announce it on twitter.
+    </p>
+    <br>
+    <button data-remodal-action="confirm" class="remodal-confirm no-select">OK</button>
+</div>
+
+
+<div class="remodal" data-remodal-id="modalResumeDownload">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>Resume</h3>
+    <p onclick="fechar()">
+        Choose a Resume version to download.
+    </p>
+    <br>
+    <a href="dist/files/cv-michaelsilva-pt.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-cancel no-select">Português</button></a>
+    <a href="dist/files/cv-michaelsilva-en.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-confirm no-select">English</button></a>
+</div>
+
+        <main role="main">
+
+    <a href="#home" class="noselect">
+        <div class="go-top-page">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </a>
+
+    <hr class="hr-about" id="about">
+
+<section class="section-model-1">
+
+    <header>
+        <h2>About</h2>
+        <h3>i’m a full-stack developer that love codes :D</h3>
+    </header>
+
+    <div class="container">
+
+        <div class="text">
+            <p>
+                I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques.
+            </p>
+
+            <p>
+                I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps.
+            </p>
+
+            <p>
+                Also I like working in a team, you'll learn faster and more.  As the saying goes: 'two heads are better than one'.
+            </p>
+
+        </div>
+
+        <div class="image">
+            <img src="dist/images/michael-silva-logo.png" alt="Michael Silva Logo">
+        </div>
+
+        <div class="user-data">
+            <div class="user-data-content">
+                <ul>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-user-circle"></i>
+                        </div>
+                        <div class="user-data-text">
+                            Michael Rodrigues da Silva
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/brazil-icon.png" alt="Michael Silva Brazil Flag">
+                        </div>
+                        <div class="user-data-text">
+                            Brazil
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <div class="user-data-text">
+                            24 years old
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/icon-darth.png" alt="Michael Silva Experience">
+                        </div>
+                        <div class="user-data-text">
+                            10 experience years
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-soccer-ball-o"></i>
+                        </div>
+                        <div class="user-data-text">
+                            I am brazilian then i love play a soccer.
+                            But, i too like of the play a game and run.
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-suitcase"></i>
+                        </div>
+                        <div class="user-data-text">
+                            I work for <a href="http://www.bsitecnologia.com/" target="_blank">BSI Tecnologia</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="user-data-content no-border">
+                <ul class="continuate">
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <hr class="hr-skills" id="skills">
+
+<section class="section-model-2">
+
+    <header>
+        <h2>Skills</h2>
+    </header>
+
+    <div class="container">
+
+        <ul>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <i class="fa fa-html5"></i>
+                        <i class="fa fa-css3"></i>
+                        <i class="fa fa-cloud"></i>
+                        <i class="fa fa-jsfiddle"></i>
+                    </div>
+
+                    <p class="text">
+                        Visual perfection. Best practices combined with latest trends.
+                    </p>
+                </div>
+            </li>
+
+
+
+        </ul>
+
+
+    </div>
+
+</section>
+
+    <hr class="hr-projects" id="projects">
+
+<section class="section-model-3">
+    <header>
+        <h2>Latest Projects</h2>
+        <h3>See some of my works, any questions, please contact me <3</h3>
+    </header>
+
+    <div class="container">
+
+        <ul class="gallery">
+            <li class="hvr-hang project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="hvr-hang project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-hang project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+                    <img src="dist/images/test-project.jpg" alt="Project Description">
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <hr class="hr-contact" id="contact">
+
+<section class="section-model-4">
+
+    <header>
+        <h2>Contact</h2>
+    </header>
+
+    <div class="container">
+
+        <div class="certificates">
+
+            <ul>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
+                        <img src="dist/images/ms-cert-sample.png">
+                    </div>
+                </li>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
+                        <img src="dist/images/ms-cert-sample.png">
+                    </div>                            </li>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
+                        <img src="dist/images/ms-cert-sample.png">
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <p class="text-contact">
+            This open source project is in <a href="https://github.com/MichaelRSilva/personal-page" target="_blank">Github.</a>
+            <br>
+            Designed and coded with lots of <img src="dist/images/heart.svg"> by myself.
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+        <footer class="footer-main">
+
+    <div class="social-medias">
+
+        <a href="https://github.com/MichaelRSilva" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
+        <a href="https://www.facebook.com/michaeldfti" target="_blank"><i class="fa fa-facebook-square hvr-bob"></i></a>
+        <a href="https://twitter.com/michaeldf_ti" target="_blank"><i class="fa fa-twitter-square hvr-bob"></i></a>
+        <a href="https://www.youtube.com/channel/UC_BgSIgz-mo5eenUC6HqB3g" target="_blank"><i class="fa fa-youtube-square hvr-bob"></i></a>
+        <a href="https://www.linkedin.com/in/michaeldfti" target="_blank"><i class="fa fa-linkedin-square hvr-bob"></i></a>
+        <a href="https://www.behance.net/michaeldfti" target="_blank"><i class="fa fa-behance-square hvr-bob"></i></a>
+        
+    </div>
+
+    <div class="text-final">
+        <a href="mailto:michael@michaelsilva.io" target="_top">michael@michaelsilva.io</a>
+    </div>
+
+</footer>
+
+	    <script src="dist/scripts/scripts.js"></script>
+
+	</body>
+
+</html>

@@ -3,8 +3,8 @@
 *~
 .DS_Store
 output.txt
-source/public/dist
-source/node_modules
-source/bower_components
-source/.sass-cache
-source/public/*.html
+src/public/dist
+src/node_modules
+src/bower_components
+src/.sass-cache
+src/public/*.html
