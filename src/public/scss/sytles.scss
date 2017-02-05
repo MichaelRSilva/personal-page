@@ -54,6 +54,20 @@ body {
     }
   }
 
+  .lg-outer .lg-item {
+    background: url("../../dist/images/loading.gif") no-repeat scroll center center transparent !important;
+    display: none !important;
+  }
+
+  .lightgallery{
+    a{
+      display: none;
+    }
+
+    a.cover{
+      display: inline;
+    }
+  }
 }
 
 

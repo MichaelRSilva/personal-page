@@ -33,7 +33,8 @@ gulp.task("styles", function(){
         'bower_components/hover/css/hover.css',
         'bower_components/Simptip/simptip.min.css',
         'bower_components/remodal/dist/remodal.css',
-        'bower_components/remodal/dist/remodal-default-theme.css'])
+        'bower_components/remodal/dist/remodal-default-theme.css',
+        'bower_components/lightgallery/dist/css/lightgallery.min.css'])
         .pipe(plumber(function (err) {
             console.log("Styles task Error");
             console.log(err);
@@ -56,6 +57,9 @@ gulp.task("scripts", function(){
         'bower_components/scrollreveal/dist/scrollreveal.min.js',
         'bower_components/jquery/dist/jquery.min.js',
         'bower_components/remodal/dist/remodal.min.js',
+        'bower_components/lightgallery/dist/js/lightgallery.min.js',
+        'bower_components/lg-thumbnail/dist/lg-thumbnail.min.js',
+        'bower_components/lg-fullscreen/dist/lg-fullscreen.min.js',
         SCRIPTS_PATH
     ])
         .pipe(plumber(function (err) {
@@ -108,7 +112,8 @@ gulp.task('fonts', function() {
     console.log("starting fonts task");
     return gulp.src([
         'bower_components/components-font-awesome/fonts/fontawesome-webfont.*',
-        'bower_components/components-font-awesome/fonts/FontAwesome-webfont.*'])
+        'bower_components/components-font-awesome/fonts/FontAwesome-webfont.*',
+        'bower_components/lightgallery/dist/fonts/lg.*'])
         .pipe(gulp.dest(DIST_PATH + '/fonts/'));
 });
 

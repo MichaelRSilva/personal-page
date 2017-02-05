@@ -11,7 +11,13 @@
         <ul class="gallery">
             <li class="hvr-hang project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
                     <p class="title">
                         Food mobile App
                     </p>
@@ -60,7 +66,13 @@
 
             <li class="hvr-hang project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
                     <p class="title">
                         Food mobile App
                     </p>
@@ -110,7 +122,13 @@
             </li>
             <li class="hvr-hang project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
                     <p class="title">
                         Food mobile App
                     </p>
@@ -160,7 +178,13 @@
             </li>
             <li class="hvr-bob project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
                     <p class="title">
                         Food mobile App
                     </p>
@@ -210,7 +234,13 @@
             </li>
             <li class="hvr-bob project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
                     <p class="title">
                         Food mobile App
                     </p>
@@ -260,7 +290,13 @@
             </li>
             <li class="hvr-bob project-item">
                 <div class="item">
-                    <img src="dist/images/test-project.jpg" alt="Project Description">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+                    
                     <p class="title">
                         Food mobile App
                     </p>

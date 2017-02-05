@@ -28,4 +28,5 @@ $(document).ready(function(){
         $(this).parent().parent().fadeOut("fast");
     });
 
+    $(".lightgallery").lightGallery();
 });
