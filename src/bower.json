@@ -1,0 +1,41 @@
+{
+  "name": "personal-page",
+  "description": "Personal Page is a project that contains a person's personal information and resume.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Michael Silva"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "personal-page"
+  ],
+  "homepage": "https://github.com/MichaelRSilva/personal-page",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.1.1",
+    "normalize-scss": "normalize.scss#^6.0.0",
+    "components-font-awesome": "^4.7.0",
+    "scrollreveal": "^3.3.2",
+    "hover": "Hover#^2.1.0",
+    "Simptip": "simptip#^1.0.4",
+    "remodal": "^1.1.1",
+    "lightgallery": "^1.3.8",
+    "lg-thumbnail": "^1.0.2",
+    "lg-autoplay": "^1.0.2",
+    "lg-fullscreen": "^1.0.1",
+    "lg-pager": "^1.0.2",
+    "lg-zoom": "^1.0.4",
+    "lg-hash": "^1.0.1"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "compass-sass-mixins": "*",
+    "susy": "^2.2.12"
+  }
+}

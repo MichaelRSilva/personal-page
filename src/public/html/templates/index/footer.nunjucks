@@ -1,0 +1,18 @@
+<footer class="footer-main">
+
+    <div class="social-medias">
+
+        <a href="https://github.com/MichaelRSilva" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
+        <a href="https://www.facebook.com/michaeldfti" target="_blank"><i class="fa fa-facebook-square hvr-bob"></i></a>
+        <a href="https://twitter.com/michaeldf_ti" target="_blank"><i class="fa fa-twitter-square hvr-bob"></i></a>
+        <a href="https://www.youtube.com/channel/UC_BgSIgz-mo5eenUC6HqB3g" target="_blank"><i class="fa fa-youtube-square hvr-bob"></i></a>
+        <a href="https://www.linkedin.com/in/michaeldfti" target="_blank"><i class="fa fa-linkedin-square hvr-bob"></i></a>
+        <a href="https://www.behance.net/michaeldfti" target="_blank"><i class="fa fa-behance-square hvr-bob"></i></a>
+        
+    </div>
+
+    <div class="text-final">
+        <a href="mailto:michael@michaelsilva.io" target="_top">michael@michaelsilva.io</a>
+    </div>
+
+</footer>

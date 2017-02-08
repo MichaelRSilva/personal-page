@@ -1,0 +1,370 @@
+
+.header-main {
+
+  width: 100vw;
+  height: 100vh;
+  background: url(../../dist/images/background-768.jpg) no-repeat center center/cover;
+  display: block;
+  position: relative;
+
+  @include selection($main-secondary-color, black);
+
+  .menu-icon-top {
+    width: 60px;
+    height: 42px;
+    background-color: $header-secondary-color;
+    position: fixed;
+    left: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+    color: $header-primary-color;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: -12px;
+    z-index: 900;
+    display: block;
+    @include border-bottom-radius(3px);
+    @include box-shadow(#2b2a2a 2px 2px 5px);
+    @include transition(background-color .3s ease-in-out .0s, margin-top .2s ease-in-out .0s);
+    mso-highlight: rgba(#fff, 0);
+    -webkit-tap-highlight-color: rgba(#fff, 0);
+
+    @media (hover:hover) {
+      &:hover{
+        background-color: $main-secondary-color;
+        margin-top: -1px;
+      }
+    }
+
+  }
+
+  nav {
+
+    width: 100%;
+    position: fixed;
+    min-height: 90px;
+    background-color: $main-secondary-color;
+    @include box-shadow(rgba(#2b2a2a, 0.6) 0 3px 5px);
+    @include border-radius(0);
+    z-index: 901;
+    display: none;
+
+    ul{
+      list-style: none;
+      padding: 5px 0 0 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      li{
+        width: 50%;
+        height: 60px;
+        color: white;
+        text-align: left;
+        font-family: $roboto-font;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 14px;
+        cursor: pointer;
+        @include transition(background-color .2s ease-in-out .0s);
+        border-right: 1px solid rgba(white, 0.3);
+        border-bottom: 1px solid rgba(white, 0.2);
+        mso-highlight: rgba(#fff, 0);
+        -webkit-tap-highlight-color: rgba(#fff, 0);
+
+        i{
+          font-size: 25px;
+          vertical-align: middle;
+          margin-right: 4px;
+        }
+
+        a{
+          height: 100%;
+          width: 100%;
+          display: block;
+          margin: 0;
+          padding: 12px 20px 0 20px;
+        }
+
+        &:nth-of-type(2n){
+          border-right: 0;
+        }
+
+
+        &:last-child{
+          border-right: 0;
+          border-bottom: 0;
+          width: 100%;
+          text-align: center;
+        }
+
+        &:hover{
+          background-color: darken($main-secondary-color, 10%);
+        }
+
+        &:active{
+          background-color: darken($main-secondary-color, 10%);
+        }
+
+
+      }
+
+      @include breakpoint($tablet) {
+        padding: 0;
+
+        li{
+          width: 100px;
+          text-align: center;
+          height: 90px;
+          font-size: 15px;
+          border-bottom: 0;
+
+          &:nth-of-type(2n){
+            border-right: 1px solid rgba(white, 0.3);
+          }
+
+          a{
+            height: 100%;
+            width: 100%;
+            display: block;
+            margin: 0;
+            padding: 12px 0 0 0;
+          }
+
+
+          i{
+            display: block;
+            font-size: 35px;
+            margin-bottom: 12px;
+            margin-right: 0;
+          }
+
+          &:last-child{
+            width: 100px;
+          }
+
+        }
+      }
+
+
+    }
+
+    .menu-close{
+      width: 46px;
+      height: 42px;
+      background-color: $header-secondary-color;
+      position: absolute;
+      left: 50%;
+      margin-left: -23px;
+      cursor: pointer;
+      color: $header-primary-color;
+      text-align: center;
+      font-size: 45px;
+      line-height: 40px;
+      z-index: 900;
+      bottom: -42px;
+      @include border-bottom-radius(3px);
+      @include box-shadow(#2b2a2a 2px 2px 5px);
+
+      i{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        left: 0;
+        @include transition(bottom .2s ease-in-out .0s);
+        cursor: pointer;
+      }
+
+      &:hover{
+        i{
+          bottom: 10px;
+        }
+        background-color: #333;
+      }
+
+    }
+
+  }
+
+  @include breakpoint($tablet) {
+    width: 100vw;
+    height: 100vh;
+    background: url(../../dist/images/background-1440.jpg) no-repeat center center/cover;
+    display: block;
+    position: relative;
+  }
+
+  @include breakpoint($desktop) {
+    width: 100vw;
+    height: 100vh;
+    background: url(../../dist/images/background-1920.jpg) no-repeat center center/cover;
+    display: block;
+    position: relative;
+  }
+
+  .arrow-down-header {
+
+    @include keyframes(move-up-down) {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(15%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    animation: move-up-down 1.2s linear infinite;
+
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(#fff, 0.6);
+    @include border-radius(50%);
+    background-color: rgba(#000, 0.3);
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    text-align: center;
+    cursor: pointer;
+    bottom: 30px;
+    @include transition(background-color .3s ease-in-out .0s);
+
+    @media (hover:hover) {
+      &:hover{
+        background-color: rgba(#000, 0.8);
+      }
+    }
+
+
+
+    i {
+      color: #fff;
+      line-height: 48px;
+      font-size: 25px;
+      @include text-shadow(rgba(#000, 0.8) 2px 5px 0);
+    }
+
+  }
+
+  .header-main-content {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    @include centerBox();
+
+    .michael-main-photo {
+      width: 40vw;
+      height: 40vw;
+      @include border-radius(50%);
+      background: rgba(255, 255, 255, 0.2);
+      position: relative;
+      left: 50%;
+      margin-left: -20vw;
+      margin-bottom: 20px;
+
+      @include mobile-landscape {
+        display: none;
+      }
+
+      @include tablet-landscape {
+        width: 30vh;
+        height: 30vh;
+        margin-left: -15vh;
+        margin-bottom: 20px;
+        display: block;
+      }
+
+      @include breakpoint($desktop) {
+        width: 30vh;
+        height: 30vh;
+        margin-left: -15vh;
+        margin-bottom: 20px;
+        display: block;
+      }
+
+      img {
+        width: 94%;
+        @include border-radius(50%);
+        position: relative;
+        @include centerBox();
+      }
+
+    }
+
+    .text-main {
+      text-align: center;
+      height: auto;
+      font-family: $ubuntu-font;
+      font-style: normal;
+      @include fit-content();
+      margin: auto;
+      font-weight: 900;
+
+      p, h1 {
+        background-color: $header-primary-color;
+        color: $header-secondary-color;
+        text-transform: uppercase;
+        display: table;
+        margin: 0 auto 12px auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 11vw;
+      }
+
+      h1 {
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        width: 100%;
+        text-align: right;
+        color: #d3d3d3;
+        font-size: 7vw;
+        padding: 0 0 0 0;
+        margin: 0;
+        @include text-shadow(rgba(#000, 0.5) 4px 3px 0);
+        background-color: transparent;
+        text-transform: none;
+        white-space: nowrap;
+        float: right;
+
+        overflow: hidden;
+
+        @include keyframes (typing){
+          from { width: 0 }
+          to { width: 100% }
+        }
+
+        animation: typing 3.5s steps(40, end);
+
+
+      }
+
+      @include mobile-landscape {
+        p, h1 {
+          font-size: 6vw;
+        }
+
+        .subtitle {
+          font-size: 3.5vw;
+        }
+      }
+
+      @include breakpoint($desktop) {
+        p, h1 {
+          font-size: 5vw;
+        }
+
+        .subtitle {
+          font-size: 2.5vw;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,247 @@
+hr.hr-projects{
+  @include hr-custom($main-hr-skills-color);
+}
+
+
+.section-model-3 {
+
+  header {
+    text-align: center;
+    font-family: $ubuntu-font;
+    border-bottom: 1px solid #e4dfdf;
+    padding-bottom: 20px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    font-size: 13px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+    @include selection($main-secondary-color, white);
+
+    @include main-section-h2;
+    @include main-section-h3;
+  }
+
+  .container{
+
+    @include container;
+
+    font-family: $roboto-font;
+    height: auto;
+    color: $main-text-color;
+    margin-bottom: 50px;
+
+    ul.gallery {
+
+      @include clearfix;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+
+        .item{
+          width: 90%;
+          height: 330px;
+          background-color: $main-primary-color;
+          margin: 0 auto 10% auto;
+          @include border-radius(5px);
+          border: 1px solid #eae1e1;
+          @include box-shadow(#cecccc 1px 1px 2px);
+          position: relative;
+
+          @include selection($main-secondary-color, white);
+
+          img{
+            width: 100%;
+            height: 55%;
+            @include border-top-radius(5px);
+          }
+
+          .title{
+            font-weight: 900;
+            font-size: 18px;
+            padding-left: 10px;
+            margin-top: 15px;
+            color: #333;
+          }
+
+          .text{
+            font-weight: normal;
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 15px;
+            color: #999;
+          }
+
+          i.open-project{
+            position: absolute;
+            top: calc((50%) + 33px);
+            right: 15px;
+            font-size: 20px;
+            color: #949393;
+            cursor: pointer;
+
+            &:hover{
+              color: darken(#949393, 20%)
+            }
+
+            @include keyframes(move-up-down) {
+              0% {
+                transform: translateY(0);
+              }
+              50% {
+                transform: translateY(15%);
+              }
+              100% {
+                transform: translateY(0);
+              }
+            }
+
+            animation: move-up-down 1.5s linear infinite;
+          }
+
+        }
+
+        @include breakpoint($tablet) {
+          @include span(6 of 12);
+        }
+
+        @include mobile-landscape{
+          @include span(6 of 12);
+        }
+
+        @include breakpoint($desktop) {
+
+          @include span(4 of 12);
+
+          &:nth-of-type(3n+2){
+            .item{
+              margin: 0 auto 10% auto;
+            }
+          }
+
+          &:nth-of-type(3n+1){
+            .item{
+              float: left;
+            }
+          }
+
+          &:nth-of-type(3n+3){
+            .item{
+              float: right;
+              margin-right: 2px;
+            }
+          }
+        }
+
+
+        .project-info{
+          width: 100%;
+          height: 100%;
+          background-color: $main-primary-color;
+          position: absolute;
+          top: 0;
+          left: 0;
+          @include border-radius(5px);
+          cursor: default;
+          font-family: $roboto-font;
+          display: none;
+
+          .title{
+            font-size: 20px;
+            color: #666;
+            margin: 0;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+
+            i.title-icon{
+              margin-right: 10px;
+              font-size: 30px;
+              vertical-align: middle;
+              color: $main-secondary-color;
+            }
+
+            i.project-info-close{
+              position: absolute;
+              right: 10px;
+              font-size: 25px;
+              color: #bbb;
+              top: 10px;
+              cursor: pointer;
+
+              &:hover{
+                color: darken(#bbb, 20%);
+              }
+            }
+          }
+
+          .body{
+            padding: 0 10px 10px 10px;
+
+            a{
+              text-decoration: underline;
+            }
+
+            p{
+              color: #999;
+              line-height: 22px;
+              width: 100%;
+              font-weight: normal;
+              font-size: 15px;
+            }
+
+            ul{
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              float: none;
+              width: 100%;
+
+              li{
+                clear: both;
+                float: none;
+                width: 100%;
+                color: #666;
+                margin-bottom: 10px;
+
+                .number{
+                  width: 25px;
+                  background-color: $main-secondary-color;
+                  height: 25px;
+                  @include border-radius(50%);
+                  float: left;
+                  color: #fff;
+                  text-align: center;
+                  line-height: 25px;
+                  font-size: 18px;
+                }
+
+                .task-item-text{
+                  float: left;
+                  line-height: 20px;
+                  width: calc(100% - 30px);
+                  font-size: 15px;
+                  margin-left: 5px;
+                  padding-left: 5px;
+
+                }
+
+                .clear{
+                  clear: both;
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}

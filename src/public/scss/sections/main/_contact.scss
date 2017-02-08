@@ -1,0 +1,155 @@
+hr.hr-contact{
+  @include hr-custom($main-hr-skills-color);
+}
+
+
+.section-model-4 {
+
+  background-color: $main-secondary-color;
+  width: 100%;
+  height: auto;
+
+  header {
+    text-align: center;
+    font-family: $ubuntu-font;
+    padding-bottom: 20px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    font-size: 13px;
+
+    @include selection(black, white);
+
+    @include main-section-h2;
+
+    h2{
+      color: $main-primary-color;
+      display: inline-block;
+
+    }
+
+  }
+
+  .container{
+
+    @include container;
+
+    font-family: $roboto-font;
+    height: auto;
+    color: $main-text-color;
+    width: 100%;
+    padding-bottom: 25px;
+
+    @include selection(black, white);
+
+    .certificates{
+
+      text-align: center;
+
+      ul{
+        list-style: none;
+        width: auto;
+        padding: 0 20px 30px 20px;
+        display: inline-block;
+        border-bottom: 1px solid $main-primary-color;
+
+        li{
+
+          float: left;
+          margin-right: 10px;
+
+          @include mobile-landscape{
+            margin-right: 30px;
+          }
+
+          @include breakpoint($tablet){
+            margin-right: 30px;
+          }
+
+          &:last-child{
+            margin-right: 0;
+          }
+
+          .frame-radius{
+            width: 20vw;
+            height: 20vw;
+            @include border-radius(50%);
+            background-color: $main-primary-color;
+            @include box-shadow(#494747 1px 1px 2px);
+            text-align: center;
+            line-height: 20vw;
+
+            @include mobile-landscape{
+              width: 100px;
+              height: 100px;
+              line-height: 100px;
+              margin-right: 10px;
+            }
+
+            @include breakpoint($tablet){
+              width: 115px;
+              height: 115px;
+              line-height: 115px;
+              margin-right: 30px;
+            }
+
+            img{
+              width: 80%;
+              height: auto;
+              @include border-radius(10%);
+              margin: 0 auto;
+              vertical-align: middle;
+            }
+
+            &:last-child{
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+
+    p.text-contact{
+      width: 100%;
+      text-align: center;
+      color: $main-primary-color;
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 30px;
+
+
+      a{
+        background-color: darken($main-secondary-color, 15%);
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
+      @include mobile-landscape{
+        font-size: 20px;
+      }
+
+      @include breakpoint($tablet){
+        font-size: 20px;
+      }
+
+      img{
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+        max-width: 25px;
+
+
+        @include keyframes (beat){
+          to { transform: scale(1.4); }
+        }
+        animation: beat .4s infinite alternate;
+
+      }
+
+    }
+
+  }
+
+
+}

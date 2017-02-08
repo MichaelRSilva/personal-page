@@ -1,0 +1,80 @@
+
+@import "bower_components/normalize-scss/sass/normalize/import-now";
+@import "bower_components/compass-sass-mixins/lib/compass";
+@import "bower_components/susy/sass/susy";
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "bower_components/components-font-awesome/scss/font-awesome";
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/keyframes";
+@import "partials/mixins";
+
+@include google-font("Ubuntu");
+@include google-font("Roboto");
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $page-background-color;
+  overflow-x: hidden;
+
+  .noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    mso-highlight: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  .remodal{
+    h3{
+      font-size: 40px;
+    }
+
+    .remodal-confirm{
+      background-color: $main-secondary-color;
+      outline: none !important;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+
+      &:hover{
+        background-color: darken($main-secondary-color, 10%);
+      }
+    }
+  }
+
+  .lg-outer .lg-item {
+    background: url("../../dist/images/loading.gif") no-repeat scroll center center transparent !important;
+    display: none !important;
+  }
+
+  .lightgallery{
+    a{
+      display: none;
+    }
+
+    a.cover{
+      display: inline;
+    }
+  }
+}
+
+
+
+
+
+
+@import "sections/header";
+@import "sections/main";
+@import "sections/footer";

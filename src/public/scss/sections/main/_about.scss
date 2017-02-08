@@ -1,0 +1,171 @@
+hr.hr-about{
+  @include hr-custom($main-secondary-color);
+}
+
+
+.section-model-1 {
+
+  header {
+    text-align: center;
+    font-family: $ubuntu-font;
+    border-bottom: 1px solid #e4dfdf;
+    padding-bottom: 20px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+    font-size: 13px;
+    margin-bottom: 40px;
+
+    @include selection($main-secondary-color, white);
+
+    @include main-section-h2;
+    @include main-section-h3;
+  }
+
+  .container{
+
+    @include container;
+
+    font-family: $roboto-font;
+    height: auto;
+    color: $main-text-color;
+    margin-bottom: 50px;
+
+    .text{
+
+      border-bottom: 1px dashed #e1dede;
+      margin-bottom: 20px;
+
+      @include selection($main-secondary-color, white);
+
+      @include breakpoint($tablet) {
+
+        @include span(5 of 12 first);
+        @include suffix(10px);
+        border: 0;
+        margin: 0;
+      }
+
+      p{
+        margin-top: 0;
+        font-size: 1em;
+        line-height: 25px;
+      }
+
+    }
+
+    .image{
+
+      img{
+        display: none;
+        width: 90%;
+        max-width: 200px;
+        margin: 50px auto 0 auto;
+      }
+
+      @include breakpoint($tablet) {
+
+        @include span(2 of 12);
+
+        img{
+          display: block;
+        }
+
+      }
+
+    }
+
+    .user-data{
+
+      padding-left: 10px;
+      @include selection($main-secondary-color, white);
+
+      @include breakpoint($tablet) {
+        @include span(5 of 12 last);
+        padding-left: 6%;
+      }
+      height: auto;
+
+      .user-data-content{
+        border-left: 1px solid $main-secondary-color;
+
+        &:first-child{
+          padding-bottom: 20px;
+        }
+
+        ul{
+          list-style: none;
+          margin: 0 0 0 -12px;
+          padding: 0;
+          font-weight: 900;
+
+          li{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            margin-top: -2px;
+
+            &:last-child{
+              margin-bottom: 0;
+            }
+
+            .user-data-icon{
+              width: 24px;
+              height: 24px;
+              padding: 0;
+              line-height: 24px;
+              font-size: 24px;
+
+              i{
+                background-color: #fefefe;
+              }
+
+            }
+
+            .user-data-text{
+              margin-left: 15px;
+              line-height: 24px;
+
+              a{
+                background-color: darken($main-secondary-color, 0%);
+                padding-left: 3px;
+                padding-right: 3px;
+                color: $main-primary-color;
+              }
+            }
+
+          }
+
+          li.user-data-image{
+            margin-bottom: 20px;
+          }
+        }
+
+        ul.continuate{
+
+          margin: 7px 0 0 -1px;
+
+          li{
+            margin-bottom: 0;
+            padding: 0;
+            line-height: 7px;
+
+            i{
+              font-size: 4px;
+              margin-bottom: 5px;
+            }
+          }
+
+
+        }
+      }
+
+      .no-border{
+        border: 0;
+      }
+
+    }
+  }
+}

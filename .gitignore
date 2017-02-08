@@ -1,0 +1,11 @@
+
+.idea/
+*~
+.DS_Store
+output.txt
+src/public/dist
+src/node_modules
+src/bower_components
+src/.sass-cache
+src/public/*.html
+src/public/files

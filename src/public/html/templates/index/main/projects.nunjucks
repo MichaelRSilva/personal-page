@@ -1,0 +1,28 @@
+<hr class="hr-projects" id="projects">
+
+<section class="section-model-3">
+    <header>
+        <h2>Latest Projects</h2>
+        <h3>See some of my works, any questions, please contact me <3</h3>
+    </header>
+
+    <div class="container">
+
+        <ul class="gallery">
+
+            {% include "index/main/projects/project-1.nunjucks" %}
+
+            {% include "index/main/projects/project-2.nunjucks" %}
+
+            {% include "index/main/projects/project-3.nunjucks" %}
+
+            {% include "index/main/projects/project-4.nunjucks" %}
+
+            {% include "index/main/projects/project-5.nunjucks" %}
+
+            {% include "index/main/projects/project-6.nunjucks" %}
+
+
+        </ul>
+    </div>
+</section>

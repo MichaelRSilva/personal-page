@@ -1,0 +1,41 @@
+<hr class="hr-contact" id="contact">
+
+<section class="section-model-4">
+
+    <header>
+        <h2>Contact</h2>
+    </header>
+
+    <div class="container">
+
+        <div class="certificates">
+
+            <ul>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3.">
+                        <img src="dist/images/ms-cert-specialist.png">
+                    </div>
+                </li>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Microsoft Certified Professional">
+                        <img src="dist/images/ms-cert-professional.jpg">
+                    </div>                            </li>
+                <li>
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Oracle certification 1Z0808 Java SE 8 Programmer I">
+                        <img src="dist/images/or-cert-programmer.jpg">
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <p class="text-contact">
+            This open source project is in <a href="https://github.com/MichaelRSilva/personal-page" target="_blank">Github.</a>
+            <br>
+            Designed and coded with lots of <img src="dist/images/heart.svg"> by myself.
+        </p>
+
+    </div>
+
+</section>

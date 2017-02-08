@@ -1,0 +1,38 @@
+
+// === FONTS ====
+$ubuntu-font: 'Ubuntu', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+
+// === SIZE SCREENS ====
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1024px;
+
+
+
+// === COLORS ===
+$page-background-color: #fefefe;
+$header-primary-color: white;
+$header-secondary-color: black;
+
+$main-primary-color: #fefefe;
+$main-secondary-color: #e53935;
+$main-third-color: #000;
+$main-text-color: #333;
+$main-hr-skills-color: #cfc5c4;
+
+
+// === SUSY LAYOUT ===
+$susy:(
+        columns: 12,
+        container: 80%,
+        gutters: 0,
+        math: fluid,
+        output: float,
+        gutter-position: inside,
+        global-box-sizing: border-box
+);
+
+
+
+// === CONTROLS ===

@@ -1,0 +1,18 @@
+<main role="main">
+
+    <a href="#home" class="noselect">
+        <div class="go-top-page">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </a>
+
+    {% include "index/main/about.nunjucks" %}
+
+    {% include "index/main/skills.nunjucks" %}
+
+    {% include "index/main/projects.nunjucks" %}
+
+    {% include "index/main/contact.nunjucks" %}
+
+
+</main>

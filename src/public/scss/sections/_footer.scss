@@ -1,0 +1,79 @@
+
+.footer-main {
+
+  width: 100vw;
+  height: auto;
+  background: url(../../dist/images/bg-footer.png) repeat;
+  display: block;
+  position: relative;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+  @include selection($main-secondary-color, white);
+
+  .text-final{
+    text-align: center;
+    color: #666;
+    cursor: pointer;
+    width: 80%;
+    border-top: 1px solid #ccc;
+    margin: 10px auto 0 auto;
+    padding-top: 10px;
+
+    @include mobile-landscape{
+      border: 0;
+      margin: 0 auto 0 auto;
+    }
+
+    @include breakpoint($tablet){
+      border: 0;
+      margin: 0 auto 0 auto;
+    }
+  }
+
+  .social-medias{
+    width: 100%;
+    text-align: center;
+
+    i{
+      margin: 12px 30px 12px 30px;
+      cursor: pointer;
+      font-size: 53px;
+
+      @include mobile-landscape{
+        margin: 12px;
+      }
+
+      @include breakpoint($tablet){
+        margin: 12px;
+      }
+    }
+
+    i.fa-facebook-square{
+      color: #2d5d9c;
+    }
+
+    i.fa-github-square{
+      color: #282828;
+    }
+
+    i.fa-twitter-square{
+      color: #00aadc;
+    }
+
+    i.fa-youtube-square{
+      color: #df232c;
+    }
+
+    i.fa-linkedin-square{
+      color: #0078a5;
+    }
+
+    i.fa-behance-square{
+      color: #009bd7;
+    }
+
+  }
+
+
+}

@@ -1,0 +1,47 @@
+
+main{
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-color: $main-primary-color;
+  color: $main-third-color;
+
+  .go-top-page{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    bottom: 20px;
+    right: 5px;
+    font-size: 20px;
+    background-color: rgba(black, 0.5);
+    color: rgba(white, 0.8);
+    text-align: center;
+    z-index: 1000;
+    cursor: pointer;
+    display: none;
+
+    @include breakpoint($tablet){
+      width: 60px;
+      height: 60px;
+      line-height: 55px;
+      bottom: 25px;
+      right: 25px;
+      font-size: 40px;
+    }
+
+    @media (hover:hover) {
+      &:hover{
+        background-color: rgba(black, 0.7);
+        color: rgba(white, 1);
+      }
+    }
+  }
+
+  @import "../sections/main/about";
+  @import "../sections/main/skills";
+  @import "../sections/main/projects";
+  @import "../sections/main/contact";
+
+
+}

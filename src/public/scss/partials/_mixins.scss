@@ -1,0 +1,133 @@
+
+@mixin google-font($font) {
+  $font: unquote($font);
+  @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+@mixin centerBox($axis: "both"){
+  position:absolute;
+  @if $axis == "y"{
+    top:50%;
+    @include translateY(-50%);
+  }
+  @if $axis == "x"{
+    left:50%;
+    @include translateX(-50%);
+  }
+  @if $axis == "both"{
+    top:50%;
+    left:50%;
+    @include translate(-50%, -50%);
+  }
+}
+
+@mixin fit-content{
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+@mixin mobile-landscape{
+  @include breakpoint(($mobile) (orientation landscape)){
+    @content
+  }
+}
+
+@mixin tablet-landscape{
+  @include breakpoint(($tablet) (orientation landscape)){
+    @content
+  }
+}
+
+@mixin tablet-portrait{
+  @include breakpoint(($tablet) (orientation portrait)){
+    @content
+  }
+}
+
+@mixin more-mobile-landscape(){
+  @include mobile-landscape{
+    @content;
+  }
+
+  @include breakpoint($tablet){
+    @content
+  }
+}
+
+@mixin hr-custom($color){
+  width: 100%;
+  height: 5px;
+  background-color: $color;
+  border: 0;
+  margin: 0;
+}
+
+@mixin main-section-h2{
+  h2 {
+    font-size: 9vw;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+
+  @include mobile-landscape {
+    h2 {
+      font-size: 4vw;
+    }
+  }
+
+  @include breakpoint($tablet) {
+    h2 {
+      font-size: 4vw;
+    }
+  }
+
+  @include breakpoint($desktop) {
+    h2 {
+      font-size: 2.5vw;
+    }
+  }
+}
+
+
+@mixin main-section-h3{
+  h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: 100;
+    font-family: $roboto-font;
+
+    @include mobile-landscape{
+      font-size: 18px;
+    }
+  }
+}
+
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin selection($background, $color){
+  ::selection{
+    background-color: $background;
+    color: $color;
+  }
+
+  ::-moz-selection{
+    background-color: $background;
+    color: $color;
+  }
+}

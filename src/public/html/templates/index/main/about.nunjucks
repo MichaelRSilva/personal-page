@@ -1,0 +1,108 @@
+<hr class="hr-about" id="about">
+
+<section class="section-model-1">
+
+    <header>
+        <h2>About</h2>
+        <h3>I love coding and provide a great experience for users. :D</h3>
+    </header>
+
+    <div class="container">
+
+        <div class="text">
+            <p>
+                I started to develop a long time ago when web systems was made with tables. And since then have not stopped.
+            </p>
+
+            <p>
+                Soon after i started programming using C and PHP, so began my passion for algorithms. After completing my Bachelor of Science in Computer Science, at the best university in my city, with more accurate mathematical thoughts, i learned Java and NodeJs.
+            </p>
+
+            <p>
+                Planning a project from start to finish is a pleasure, seeking to deliver to the user a product that helps him with quick answers and that he does not need to think much about what he should do (UX/UI).
+            </p>
+
+        </div>
+
+        <div class="image">
+            <img src="dist/images/michael-silva-logo.png" alt="Michael Silva Logo">
+        </div>
+
+        <div class="user-data">
+            <div class="user-data-content">
+                <ul>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-user-circle"></i>
+                        </div>
+                        <div class="user-data-text">
+                            Michael Rodrigues da Silva
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/brazil-icon.png" alt="Michael Silva Brazil Flag">
+                        </div>
+                        <div class="user-data-text">
+                            Brazil
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                        <div class="user-data-text">
+                            24 years old
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/icon-darth.png" alt="Michael Silva Experience">
+                        </div>
+                        <div class="user-data-text">
+                            10 experience years
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-soccer-ball-o"></i>
+                        </div>
+                        <div class="user-data-text">
+                            I am brazilian, then i love play a soccer.
+                            But, i too enjoy of the play a games and run in the park.
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <i class="fa fa-suitcase"></i>
+                        </div>
+                        <div class="user-data-text">
+                            I work for <a href="http://www.bsitecnologia.com/" target="_blank">BSI Tecnologia</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="user-data-content no-border">
+                <ul class="continuate">
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-circle"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

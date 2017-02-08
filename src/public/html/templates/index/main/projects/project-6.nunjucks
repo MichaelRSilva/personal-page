@@ -1,0 +1,70 @@
+<li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/consulta-0.jpg" class="cover">
+                <img src="dist/images/projects/consulta-0.jpg" alt="ConsultaOpinião- Cover - Click in the arrow 'next'">
+            </a>
+            <a href="dist/images/projects/consulta-1.jpg">
+                <img src="dist/images/projects/consulta-1.jpg" alt="ConsultaOpinião - Login">
+            </a>
+            <a href="dist/images/projects/consulta-2.jpg">
+                <img src="dist/images/projects/consulta-2.jpg" alt="ConsultaOpinião - Register">
+            </a>
+            <a href="dist/images/projects/consulta-3.jpg">
+                <img src="dist/images/projects/consulta-3.jpg" alt="ConsultaOpinião - Map">
+            </a>
+            <a href="dist/images/projects/consulta-4.jpg">
+                <img src="dist/images/projects/consulta-4.jpg" alt="ConsultaOpinião - Admin">
+            </a>
+            <a href="dist/images/projects/consulta-5.jpg">
+                <img src="dist/images/projects/consulta-5.jpg" alt="ConsultaOpinião - Questions">
+            </a>
+            <a href="dist/images/projects/consulta-6.jpg">
+                <img src="dist/images/projects/consulta-6.jpg" alt="ConsultaOpinião - Admin">
+            </a>
+        </span>
+
+        <p class="title">
+            ConsultaOpinião - Swift App
+        </p>
+        <p class="text">
+            App built as final course work, users can evaluate public agencies, managers can view the evaluations.
+        </p>
+
+        <i class="fa fa-bars open-project" title="View More"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                    App developed with Swift and in the Back-End was used Java + Jersey and the Database was designed with Workbench.                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">UI was created with Swift</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Back-End: Java+Jersey</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text">SGDB: Mysql</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text">See the <a href="https://www.youtube.com/watch?v=vvYF2hEA46k&t=12s" target="_blank">Video Presentation</a></div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>

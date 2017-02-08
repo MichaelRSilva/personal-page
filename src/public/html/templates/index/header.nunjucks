@@ -1,0 +1,113 @@
+<header class="header-main" id="home">
+
+    <div class="menu-icon-top">
+        <i class="fa fa-th-large"></i>
+    </div>
+
+    <nav role="navigation">
+        <ul>
+
+            <li>
+                <a href="#home">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
+                 </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <i class="fa fa-user-circle"></i>
+                    <span>About</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    <i class="fa fa-code"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-tasks"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalResumeDownload">
+                    <i class="fa fa-cloud-download"></i>
+                    <span>Resume</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-phone-square"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalNoticeBlog">
+                    <i class="fa fa-quote-right"></i>
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="menu-close">
+            <i class="fa fa-angle-up"></i>
+        </div>
+
+    </nav>
+
+
+    <div class="header-main-content">
+
+        <div class="michael-main-photo">
+            <img src="dist/images/michael-main.jpg" alt="Michael Silva">
+        </div>
+
+        <div class="text-main">
+            <p>Hello</p>
+            <p>I am</p>
+            <h1>Michael Silva.</h1>
+            <div class="subtitle">Full-Stack</div>
+        </div>
+
+    </div>
+
+    <a href="#about" class="noselect">
+        <div class="arrow-down-header">
+            <i class="fa fa-arrow-down"></i>
+        </div>
+    </a>
+
+</header>
+
+<div class="remodal" data-remodal-id="modalNoticeBlog">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>Hello :D</h3>
+    <p>
+        I'm building my blog, to share many interesting things about full-stack development.
+        <br><br>
+        As soon as it's ready i'll announce it on twitter.
+    </p>
+    <br>
+    <button data-remodal-action="confirm" class="remodal-confirm no-select">OK</button>
+</div>
+
+
+<div class="remodal" data-remodal-id="modalResumeDownload">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>Resume</h3>
+    <p onclick="fechar()">
+        Choose a Resume version to download.
+    </p>
+    <br>
+    <a href="dist/files/cv-michaelsilva-pt.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-cancel no-select">Português</button></a>
+    <a href="dist/files/cv-michaelsilva-en.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-confirm no-select">English</button></a>
+</div>
