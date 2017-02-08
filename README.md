@@ -29,6 +29,10 @@ Personal Page was made with love by these people and a bunch of awesome [contrib
 8. To develop run `gulp watch`
 9. Export project to production run `gulp deploy-production`
 
+## Structure
+* utils: Has the project in Photoshop and several images that can be used for header background.
+* src: Has all project code
+
 ## Browser Support
 
 We do care about it.
@@ -43,7 +47,6 @@ IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 * Ubuntu by [Dalton Maag](https://fonts.google.com/specimen/Ubuntu)
 * Roboto by [Christian Robertson](https://fonts.google.com/specimen/Roboto)
-
 
 ## License
 
