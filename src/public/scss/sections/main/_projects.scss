@@ -48,9 +48,10 @@ hr.hr-projects{
           background-color: $main-primary-color;
           margin: 0 auto 10% auto;
           @include border-radius(5px);
-          border: 1px solid #eae1e1;
-          @include box-shadow(#cecccc 1px 1px 2px);
+          border: 1px solid #ddd;
+          @include box-shadow(#aaa 1px 1px 2px);
           position: relative;
+          text-align: left;
 
           @include selection($main-secondary-color, white);
 
@@ -119,6 +120,7 @@ hr.hr-projects{
           @include span(4 of 12);
 
           &:nth-of-type(3n+2){
+            text-align: center;
             .item{
               margin: 0 auto 10% auto;
             }
@@ -126,16 +128,17 @@ hr.hr-projects{
 
           &:nth-of-type(3n+1){
             .item{
-              float: left;
+              left: 0;
             }
           }
 
           &:nth-of-type(3n+3){
+            text-align: right;
             .item{
-              float: right;
               margin-right: 2px;
             }
           }
+
         }
 
 
@@ -150,6 +153,7 @@ hr.hr-projects{
           cursor: default;
           font-family: $roboto-font;
           display: none;
+          text-align: left;
 
           .title{
             font-size: 20px;
@@ -183,6 +187,7 @@ hr.hr-projects{
 
           .body{
             padding: 0 10px 10px 10px;
+            text-align: left;
 
             a{
               text-decoration: underline;
@@ -229,7 +234,7 @@ hr.hr-projects{
                   font-size: 15px;
                   margin-left: 5px;
                   padding-left: 5px;
-
+                  text-align: left;
                 }
 
                 .clear{
