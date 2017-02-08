@@ -88,20 +88,6 @@ hr.hr-projects{
             &:hover{
               color: darken(#949393, 20%)
             }
-
-            @include keyframes(move-up-down) {
-              0% {
-                transform: translateY(0);
-              }
-              50% {
-                transform: translateY(15%);
-              }
-              100% {
-                transform: translateY(0);
-              }
-            }
-
-            animation: move-up-down 1.5s linear infinite;
           }
 
         }
@@ -183,10 +169,6 @@ hr.hr-projects{
 
           .body{
             padding: 0 10px 10px 10px;
-
-            a{
-              text-decoration: underline;
-            }
 
             p{
               color: #999;

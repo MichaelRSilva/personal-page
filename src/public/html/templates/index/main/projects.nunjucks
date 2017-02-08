@@ -9,20 +9,341 @@
     <div class="container">
 
         <ul class="gallery">
+            <li class="hvr-hang project-item">
+                <div class="item">
 
-            {% include "index/main/projects/project-1.nunjucks" %}
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
 
-            {% include "index/main/projects/project-2.nunjucks" %}
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
 
-            {% include "index/main/projects/project-3.nunjucks" %}
+                    <i class="fa fa-bars open-project" title="View More"></i>
 
-            {% include "index/main/projects/project-4.nunjucks" %}
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
 
-            {% include "index/main/projects/project-5.nunjucks" %}
+            <li class="hvr-hang project-item">
+                <div class="item">
 
-            {% include "index/main/projects/project-6.nunjucks" %}
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
 
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
 
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-hang project-item">
+                <div class="item">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="hvr-bob project-item">
+                <div class="item">
+
+                    <span class="lightgallery">
+                        <a href="dist/images/test-project.jpg" class="cover">
+                            <img src="dist/images/test-project.jpg" alt="Project Description">
+                        </a>
+                    </span>
+                    
+                    <p class="title">
+                        Food mobile App
+                    </p>
+                    <p class="text">
+                        Online headquarters for the local Code for America brigade in Rhode Island.
+                    </p>
+
+                    <i class="fa fa-bars open-project" title="View More"></i>
+
+                    <div class="project-info">
+                        <div class="title">
+                            <i class="fa fa-tasks title-icon"></i> Tasks
+                            <i class="fa fa-close project-info-close"></i>
+                        </div>
+                        <div class="body">
+                            <p>
+                                Online headquarters for the local Code for America brigade in Rhode Island.
+                                Online headquarters for the local.
+                            </p>
+                            <ul>
+                                <li>
+                                    <div class="number">1</div>
+                                    <div class="task-item-text">Criação do HTML</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <div class="task-item-text">Criação do Javascript</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <div class="task-item-text">Criação do CSS</div>
+                                    <div class="clear"></div>
+                                </li>
+                                <li>
+                                    <div class="number">4</div>
+                                    <div class="task-item-text">Criação da imagem usando Photoshop e Skecth.</div>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </li>
         </ul>
     </div>
 </section>
