@@ -4,22 +4,22 @@
 
     <header>
         <h2>About</h2>
-        <h3>i’m a full-stack developer that love codes :D</h3>
+        <h3>I love coding and provide a great experience for users. :D</h3>
     </header>
 
     <div class="container">
 
         <div class="text">
             <p>
-                I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques.
+                I started to develop a long time ago when web systems was made with tables. And since then have not stopped.
             </p>
 
             <p>
-                I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps.
+                Soon after i started programming using C and PHP, so began my passion for algorithms. After completing my Bachelor of Science in Computer Science, at the best university in my city, with more accurate mathematical thoughts, i learned Java and NodeJs.
             </p>
 
             <p>
-                Also I like working in a team, you'll learn faster and more.  As the saying goes: 'two heads are better than one'.
+                Planning a project from start to finish is a pleasure, seeking to deliver to the user a product that helps him with quick answers and that he does not need to think much about what he should do (UX/UI).
             </p>
 
         </div>
@@ -73,8 +73,8 @@
                             <i class="fa fa-soccer-ball-o"></i>
                         </div>
                         <div class="user-data-text">
-                            I am brazilian then i love play a soccer.
-                            But, i too like of the play a game and run.
+                            I am brazilian, then i love play a soccer.
+                            But, i too enjoy of the play a games and run in the park.
                         </div>
                     </li>
 

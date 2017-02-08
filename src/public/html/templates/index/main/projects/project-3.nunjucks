@@ -1,0 +1,71 @@
+<li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/robocon-0.jpg" class="cover">
+                <img src="dist/images/projects/robocon-0.jpg" alt="RoboCon - Cover - Click in the arrow 'next'">
+            </a>
+            <a href="dist/images/projects/robocon-1.jpg">
+                <img src="dist/images/projects/robocon-1.jpg" alt="RoboCon - Initial interaction">
+            </a>
+            <a href="dist/images/projects/robocon-2.jpg">
+                <img src="dist/images/projects/robocon-2.jpg" alt="RoboCon - Buttons interaction">
+            </a>
+            <a href="dist/images/projects/robocon-3.jpg">
+                <img src="dist/images/projects/robocon-3.jpg" alt="RoboCon - Conversation flow">
+            </a>
+            <a href="dist/images/projects/robocon-4.jpg">
+                <img src="dist/images/projects/robocon-4.jpg" alt="RoboCon - Admin area">
+            </a>
+            <a href="dist/images/projects/robocon-5.jpg">
+                <img src="dist/images/projects/robocon-5.jpg" alt="RoboCon - Admin configurations area">
+            </a>
+            <a href="dist/images/projects/robocon-6.jpg">
+                <img src="dist/images/projects/robocon-6.jpg" alt="RoboCon - Bitbucket commits">
+            </a>
+        </span>
+
+        <p class="title">
+            RoboCon - Chatbot
+        </p>
+        <p class="text">
+            Full-Stack project (facilitates company communication with customers), the main objective was to be among the top 3 in hackathon, we were second.
+        </p>
+
+        <i class="fa fa-bars open-project" title="View More"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                    Chatbot consumes Watson (Conversation, Recognition and Speech) services to automatically interact with users.
+                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">NodeJs + Express + MySQL</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Front-End developed with HTML5+CSS3+JS</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text">IBM Watson</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text"><a href="https://bitbucket.org" target="_blank">Bitbucket</a> was used</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
