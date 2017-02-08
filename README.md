@@ -17,6 +17,17 @@ Personal Page was made with love by these people and a bunch of awesome [contrib
 --- | --- | --- | --- | --- | --- | ---
 [Michael Silva](https://github.com/MichaelRSilva)<br>Bsi Tecnologia, Inc. |
 
+## Usage
+
+1. Download the project
+2. Install Node + NPM
+3. Install Bower
+4. Install Gulp
+5. Enter the 'src' folder
+6. Run `npm install`
+7. Run `bower install`
+8. To develop run `gulp watch`
+9. Export project to production run `gulp deploy-production`
 
 ## Browser Support
 
