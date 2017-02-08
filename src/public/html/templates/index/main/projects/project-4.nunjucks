@@ -1,0 +1,68 @@
+<li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/seg-0.jpg" class="cover">
+                <img src="dist/images/projects/seg-0.jpg" alt="SEG - Cover - Click in the arrow 'next'">
+            </a>
+            <a href="dist/images/projects/seg-1.jpg">
+                <img src="dist/images/projects/seg-1.jpg" alt="SEG - Header style">
+            </a>
+            <a href="dist/images/projects/seg-2.jpg">
+                <img src="dist/images/projects/seg-2.jpg" alt="SEG - Courses">
+            </a>
+            <a href="dist/images/projects/seg-3.jpg">
+                <img src="dist/images/projects/seg-3.jpg" alt="SEG - Photos">
+            </a>
+            <a href="dist/images/projects/seg-4.jpg">
+                <img src="dist/images/projects/seg-4.jpg" alt="SEG - Footer">
+            </a>
+            <a href="dist/images/projects/seg-5.jpg">
+                <img src="dist/images/projects/seg-5.jpg" alt="SEG - Admin">
+            </a>
+        </span>
+
+        <p class="title">
+            SEG - School Page
+        </p>
+        <p class="text">
+            Web page to manage postgraduate courses, containing information about the courses, besides enrollment and payments.
+        </p>
+
+        <i class="fa fa-bars open-project" title="View More"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                    In addition to the user interaction page, there is a management system where the administrator can change the information.
+                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">UI was created with Photoshop</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Front-End developed with HTML5+CSS3+JS</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text">Back-End in PHP</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text">SGDB Mysql</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>

@@ -12,17 +12,17 @@
 
             <ul>
                 <li>
-                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
-                        <img src="dist/images/ms-cert-sample.png">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3.">
+                        <img src="dist/images/ms-cert-specialist.png">
                     </div>
                 </li>
                 <li>
-                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
-                        <img src="dist/images/ms-cert-sample.png">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Microsoft Certified Professional">
+                        <img src="dist/images/ms-cert-professional.jpg">
                     </div>                            </li>
                 <li>
-                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Certificação da Microsoft para Front-End.">
-                        <img src="dist/images/ms-cert-sample.png">
+                    <div class="frame-radius simptip-position-top simptip-fade simptip-multiline" data-tooltip="Oracle certification 1Z0808 Java SE 8 Programmer I">
+                        <img src="dist/images/or-cert-programmer.jpg">
                     </div>
                 </li>
 
