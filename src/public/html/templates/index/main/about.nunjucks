@@ -4,22 +4,22 @@
 
     <header>
         <h2>About</h2>
-        <h3>I love coding and provide a great experience for users. :D</h3>
+        <h3>I love coding and providing a great experience for users. :D</h3>
     </header>
 
     <div class="container">
 
         <div class="text">
             <p>
-                I started to develop a long time ago when web systems was made with tables. And since then have not stopped.
+                I have been programming for over 10 years, when web systems were using html tables.
             </p>
 
             <p>
-                Soon after i started programming using C and PHP, so began my passion for algorithms. After completing my Bachelor of Science in Computer Science, at the best university in my city, with more accurate mathematical thoughts, i learned Java and NodeJs.
+                I started programming in C and PHP languages, since there I have been fascinated for algorithms. After completing my Bachelor of Science in Computer Science, at the best University in my state, where I improved my mathematical skills and learned Java and NodeJs.
             </p>
 
             <p>
-                Planning a project from start to finish is a pleasure, seeking to deliver to the user a product that helps him with quick answers and that he does not need to think much about what he should do (UX/UI).
+                Planning a project from start to finish is a pleasure, seeking to deliver to the user a product that helps him with efficient solutions, keeping the user interface as intuitive as possible (UX/UI).
             </p>
 
         </div>
@@ -34,7 +34,7 @@
 
                     <li>
                         <div class="user-data-icon">
-                            <i class="fa fa-user-circle"></i>
+                            <I class="fa fa-user-circle"></i>
                         </div>
                         <div class="user-data-text">
                             Michael Rodrigues da Silva
@@ -52,7 +52,7 @@
 
                     <li>
                         <div class="user-data-icon">
-                            <i class="fa fa-calendar"></i>
+                            <I class="fa fa-calendar"></i>
                         </div>
                         <div class="user-data-text">
                             24 years old
@@ -64,23 +64,23 @@
                             <img src="dist/images/icon-darth.png" alt="Michael Silva Experience">
                         </div>
                         <div class="user-data-text">
-                            10 experience years
+                            10 years of experience
                         </div>
                     </li>
 
                     <li>
                         <div class="user-data-icon">
-                            <i class="fa fa-soccer-ball-o"></i>
+                            <I class="fa fa-soccer-ball-o"></i>
                         </div>
                         <div class="user-data-text">
-                            I am brazilian, then i love play a soccer.
-                            But, i too enjoy of the play a games and run in the park.
+                            I am brazilian, I love playing soccer,
+                            I enjoy playing video-games and running in the park.
                         </div>
                     </li>
 
                     <li>
                         <div class="user-data-icon">
-                            <i class="fa fa-suitcase"></i>
+                            <I class="fa fa-suitcase"></i>
                         </div>
                         <div class="user-data-text">
                             I work for <a href="http://www.bsitecnologia.com/" target="_blank">BSI Tecnologia</a>
@@ -93,13 +93,13 @@
             <div class="user-data-content no-border">
                 <ul class="continuate">
                     <li>
-                        <i class="fa fa-circle"></i>
+                        <I class="fa fa-circle"></i>
                     </li>
                     <li>
-                        <i class="fa fa-circle"></i>
+                        <I class="fa fa-circle"></i>
                     </li>
                     <li>
-                        <i class="fa fa-circle"></i>
+                        <I class="fa fa-circle"></i>
                     </li>
                 </ul>
             </div>

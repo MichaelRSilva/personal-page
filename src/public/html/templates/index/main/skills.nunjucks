@@ -21,7 +21,7 @@
                     </div>
 
                     <p class="text">
-                        Creation of projects using my experience with (UX/UI), combined with a clean and organized code, made with HTML5, CSS3, jQuery and Js.                    </p>
+                        Create projects using my experience with (UX/UI), combined with a clean and organized code, made with HTML5, CSS3, jQuery and Js.                    </p>
                 </div>
             </li>
 
@@ -35,7 +35,7 @@
                     </div>
 
                     <p class="text">
-                        Sass, AngularJs and Gulp are tools that i use to create modularized code, and accelerate development. Bootstrap has some useful components for responsive layouts.</p>
+                        I use Sass, AngularJs and Gulp to create modularized code and accelerate development. Bootstrap has some useful components for responsive layouts.</p>
                 </div>
             </li>
 
@@ -49,7 +49,8 @@
                     </div>
 
                     <p class="text">
-                        The basis for creating great back-end projects is the study of algorithms. And i try to do this so that the back-end junction with front-end has a fine tuning.                    </p>
+                        To create back-end projects I study Algorithms and the specifics languages. I use to find out what language is better for each project.
+                    </p>
                 </div>
             </li>
 
@@ -63,7 +64,7 @@
                     </div>
 
                     <p class="text">
-                        Configuring and data persistence with relational database (Mysql, SQL) and non relational (Mongo DB), to improve search performance, i use Elastic Search.
+                        Configuring and data persistence with relational database (Mysql, SQL) and non relational (Mongo DB). To improve search performance I use Elastic Search.
                     </p>
                 </div>
             </li>
@@ -78,7 +79,7 @@
                     </div>
 
                     <p class="text">
-                        Idealization of the projects (UX/UI) with PS and FW. Use the Git/Github environment to version projects. Configuration of the cloud environments (Bluemix, Aws and Azure).
+                        Idealization of the projects (UX/UI) with PS and FW. Use the Git/Github to control the versions of projects. Configuration of the cloud environments (Bluemix, Aws and Azure).
                     </p>
                 </div>
             </li>
@@ -92,16 +93,11 @@
                     </div>
 
                     <p class="text">
-                        In addition to developing hybrid applications with Ionic (+ Angular, HTML5, CSS3), i also develop native applications with Swift and Java (Android).
+                        In addition developing hybrid applications with Ionic (+ Angular, HTML5, CSS3), I can develop native applications with Swift and Java (Android).
                     </p>
                 </div>
             </li>
-
-
-
         </ul>
-
-
     </div>
 
 </section>
